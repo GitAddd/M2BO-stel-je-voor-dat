@@ -8,6 +8,7 @@ body{
     background-repeat: no-repeat;
     background-size: 100vw;
     background-attachment: fixed;
+    font-family: "Poppins", sans-serif;
 }
 
   header{
@@ -59,16 +60,32 @@ body{
 
     .Skillsimg{
      position: fixed;
-      top: 15%;
-      left: 4%;
-      border-radius: 5px;
+      top: 14%;
+      left: 3.5%;
+      border-radius: 25px;
+      padding: 10px;
+      background: #000;
     }
 
     .softskills{
       position: fixed;
-      top: 34%;
+      top: 32%;
       right: 6%;
-      border-radius: 5px;
+      border-radius: 25px;
+      padding: 10px;
+      background: #000;
+    }
+
+    .softskills:hover{
+
+      transform: scale(1.1);
+
+    }
+
+    .Skillsimg:hover{
+
+      transform: scale(1.1);
+
     }
     /* .container {
         position: relative;
